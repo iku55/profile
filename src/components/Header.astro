@@ -1,0 +1,31 @@
+---
+import portfolio from "../data/portfolio.json";
+
+const { profile, navLinks } = portfolio;
+---
+
+<header
+    class="fixed top-0 left-0 z-50 w-full bg-slate-900/40 text-white backdrop-blur-sm border-b border-slate-800/30"
+>
+    <div
+        class="max-w-6xl w-full mx-auto px-6 py-3 flex justify-between items-center"
+    >
+        <div class="text-lg font-bold tracking-wider">{profile.name}</div>
+        <nav class="hidden sm:block">
+            <ul class="flex gap-6 text-xs font-medium text-slate-300">
+                {
+                    navLinks.map((link) => (
+                        <li>
+                            <a
+                                href={link.href}
+                                class="hover:text-blue-400 transition"
+                            >
+                                {link.label}
+                            </a>
+                        </li>
+                    ))
+                }
+            </ul>
+        </nav>
+    </div>
+</header>

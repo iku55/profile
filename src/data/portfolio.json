@@ -1,0 +1,75 @@
+{
+  "profile": {
+    "name": "iku55",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/51874867",
+    "tagline": "地理空間データを、価値あるプロダクトへ",
+    "text": "大阪大学1回生。地理情報科学/空間情報/デジタルツイン/防災情報に関心があります。地理情報科学の学際性を活かし、社会実装を通じて、社会課題の解決に挑みます。",
+    "heroBgUrl": "/images/screenshot-shindodb.png"
+  },
+  "navLinks": [
+    { "label": "Works", "href": "#works" },
+    { "label": "Skills", "href": "#skills" },
+    { "label": "Education", "href": "#education" },
+    { "label": "Articles", "href": "#articles" },
+    { "label": "Links", "href": "#links" }
+  ],
+  "works": [
+    {
+      "title": "計測震度データベース",
+      "description": "気象庁が発表する地震火山月報のPDFから計測震度データを抽出し、地図で可視化するWebアプリケーション",
+      "url": "https://iku55.github.io/shindodb/",
+      "bgUrl": "/images/screenshot-shindodb.png",
+      "gradient": "from-slate-800 to-indigo-950"
+    },
+    {
+      "title": "CWA-EQImage-Generator",
+      "description": "台湾の中央気象局の地震情報を取得し、画像生成するコマンドラインツール",
+      "url": "https://github.com/iku55/CWA-EQImage-Generator",
+      "bgUrl": "/images/screenshot-cwa-eqimage-generator.png",
+      "gradient": "from-slate-800 to-emerald-950"
+    }
+  ],
+  "skills": [
+    { "name": "HTML", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
+    { "name": "CSS", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
+    { "name": "JavaScript", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+    { "name": "TypeScript", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" },
+    { "name": "Node.js", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
+    { "name": "Flutter", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" },
+    { "name": "Python", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+    { "name": "Java", "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" }
+  ],
+  "education": [
+    {
+      "period": "2026.04 ~",
+      "institution": "大阪大学 基礎工学部"
+    }
+  ],
+  "articles": {
+    "qiitaUsername": "iku55"
+  },
+  "links": [
+    {
+      "platform": "Twitter",
+      "label": "@iku55mc",
+      "url": "https://x.com/iku55mc",
+      "icon": "https://cdn.simpleicons.org/x/slate-400/sky-400",
+      "color": "hover:text-sky-500 dark:hover:text-sky-400"
+    },
+    {
+      "platform": "GitHub",
+      "label": "@iku55",
+      "url": "https://github.com/iku55",
+      "icon": "https://cdn.simpleicons.org/github/slate-400/white",
+      "color": "hover:text-slate-900 dark:hover:text-white"
+    },
+    {
+      "platform": "Qiita",
+      "label": "@iku55",
+      "url": "https://qiita.com/iku55",
+      "icon": "https://cdn.simpleicons.org/qiita/slate-400/green-500",
+      "color": "hover:text-green-600 dark:hover:text-green-400"
+    }
+  ],
+  "footer": "© 2026 iku55. All rights reserved."
+}
