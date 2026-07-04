@@ -4,7 +4,7 @@
     "avatarUrl": "https://avatars.githubusercontent.com/u/51874867",
     "tagline": "地理空間データを、価値あるプロダクトへ",
     "text": "大阪大学1回生。地理情報科学/空間情報/デジタルツイン/防災情報に関心があります。地理情報科学の学際性を活かし、社会実装を通じて、社会課題の解決に挑みます。",
-    "heroBgUrl": "/images/screenshot-shindodb.png"
+    "heroBgUrl": "./images/screenshot-shindodb.png"
   },
   "navLinks": [
     { "label": "Works", "href": "#works" },
@@ -18,14 +18,14 @@
       "title": "計測震度データベース",
       "description": "気象庁が発表する地震火山月報のPDFから計測震度データを抽出し、地図で可視化するWebアプリケーション",
       "url": "https://iku55.github.io/shindodb/",
-      "bgUrl": "/images/screenshot-shindodb.png",
+      "bgUrl": "./images/screenshot-shindodb.png",
       "gradient": "from-slate-800 to-indigo-950"
     },
     {
       "title": "CWA-EQImage-Generator",
       "description": "台湾の中央気象局の地震情報を取得し、画像生成するコマンドラインツール",
       "url": "https://github.com/iku55/CWA-EQImage-Generator",
-      "bgUrl": "/images/screenshot-cwa-eqimage-generator.png",
+      "bgUrl": "./images/screenshot-cwa-eqimage-generator.png",
       "gradient": "from-slate-800 to-emerald-950"
     }
   ],
